@@ -74,35 +74,89 @@
                     <h3> Preprints, Publications and Projects </h3>
                 </div>
     <br>
-                <div class="row">
-                    <div class="col-xs-2">
-                        <img src="img/bnnpbl.png" class="img-responsive"  alt="Surface plot depicting problem"/>
-                    </div>
-                    <div class="col-xs-8 text-left">
-                        <h4> Using Bayesian Neural Nets for Predicting the Boundary Layer depth </h4>
-                        During my M SC. of Physics (completed in august 2017)
-                        I conducted research in Atmospheric Physics. Specifically, I used bayesian
-                        neural networks to learn a functional relationship between the planetary
-                        boundary layer depth and physical quantities commonly measured at weather
-                        stations such as temperature, wind speeds, surface pressure speciﬁc humidity
-                        and solar intensity.
-                        <br><br>
-                        <div class="btn-group-xs">
-                          <a href="msc.pdf"
-                          class="btn btn-default">MSc Report Paper</a>
-                          <a href="https://github.com/flame02/MSc-Project"
-                          class="btn btn-default">Code</a>
-                        </div>
-                        <br>
-                    </div>
-                </div>
+
+    <div class="row">
+        <div class="col-xs-2">
+            <img src="img/sbnp.png" class="img-responsive"  alt="Surface plot depicting problem"/>
+        </div>
+        <div class="col-xs-8 text-left">
+            <strong> Stick breaking neural latent variable models </strong></br>
+
+            Neural processes define a class of neural latent variable models.
+            We extend this class to an infinite dimensional space by imposing a
+            stick-breaking prior on the latent space. Using Stochastic Gradient
+            Variational Bayes, we perform posterior inference for the weights of
+            the stick-breaking process and develop the stick-breaking neural process (SB-NP).
+            SB-NPs are able to learn the dimensionality of the latent space and
+            have improved posterior uncertainty.
+            <br><br>
+            <div class="btn-group-xs">
+              <a href="2546Project.pdf"
+              class="btn btn-default">Paper</a>
+              <a href="https://github.com/flame02/csc2546project"
+              class="btn btn-default">Code</a>
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-2">
+            <img src="img/cwbnn.png" class="img-responsive"  alt="Surface plot depicting problem"/>
+        </div>
+        <div class="col-xs-8 text-left">
+            <strong> Characterizing and warping the function space of Bayesian neural networks </strong></br>
+            In this work we develop a simple method to construct priors for Bayesian neural networks
+            that incorporates meaningful prior information about functions.
+            This method allows us to characterize the relationship between weight space and function space.
+            <br><br>
+            <div class="btn-group-xs">
+              <a href="2546Project.pdf"
+              class="btn btn-default">Paper</a>
+              <a href="https://github.com/flame02/csc2546project"
+              class="btn btn-default">Code</a>
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-2">
+            <img src="img/mgppbnn.png" class="img-responsive"  alt="Surface plot depicting problem"/>
+        </div>
+        <div class="col-xs-8 text-left">
+            <strong> Mapping Gaussian process priors to Bayesian Neural Networks </strong></br>
+            What defines a reasonable prior to use when forming and training Bayesian models?
+            It is difficult to incorporate meaningful prior information about functions to be
+            modeled by BNNs since priors are generally specified over the network parameters.
+            Often, normal distributions are placed over the weights for convenience and
+            are interpreted as a bias toward less complex functions via smaller weights.
+            Gaussian processes, on the other hand, have a elegant mechanism for incorporating
+            prior beliefs about the underlying function - specifying the mean and covariance functions.
+            However, Gaussian Processes have scalability limitations making Bayesian neural networks
+            a more practical model in large data settings.
+            In our work, we present an approach to specify a more principled prior for
+            Bayesian Neural Networks that can leverage the well studied kernel design techniques
+            from Gaussian process regression.
+
+            <br><br>
+            <div class="btn-group-xs">
+              <a href="2546Project.pdf"
+              class="btn btn-default">Paper</a>
+              <a href="https://github.com/flame02/csc2546project"
+              class="btn btn-default">Code</a>
+            </div>
+            <br>
+        </div>
+    </div>
+
 
                 <div class="row">
                     <div class="col-xs-2">
                         <img src="img/fba.png" class="img-responsive"  alt="Surface plot depicting problem"/>
                     </div>
                     <div class="col-xs-8 text-left">
-                        <strong> CSC2546 Project : Generalized Feedback Alignment </strong>
+                        <strong> Generalized Feedback Alignment </strong></br>
                         The back-propagation algorithm is one of the main tools for credit assignment
                         in neural networks where the loss gradient is computed to back-propagate error
                         from the output layer to the hidden layers. A method called feedback alignment
@@ -121,6 +175,29 @@
                           <a href="https://github.com/flame02/csc2546project"
                           class="btn btn-default">Code</a>
                         </div>
+                        <br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-2">
+                        <img src="img/bnnpbl.png" class="img-responsive"  alt="Surface plot depicting problem"/>
+                    </div>
+                    <div class="col-xs-8 text-left">
+                        <strong> Predicting planetary boundary layer height with Bayesian Neural Networks </strong></br>
+                        During my M SC. of Physics
+                        I conducted research in Atmospheric Physics. Specifically, I used bayesian
+                        neural networks to learn a functional relationship between the planetary
+                        boundary layer depth and physical quantities commonly measured at weather
+                        stations such as temperature, wind speeds, surface pressure speciﬁc humidity
+                        and solar intensity.
+                        <br><br>
+                        <!--div class="btn-group-xs">
+                          <a href="msc.pdf"
+                          class="btn btn-default">MSc Report Paper</a>
+                          <a href="https://github.com/flame02/MSc-Project"
+                          class="btn btn-default">Code</a>
+                        </div--!>
                         <br>
                     </div>
                 </div>
