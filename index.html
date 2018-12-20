@@ -28,9 +28,9 @@
           <!--a href="https://twitter.com/danielflamshepherd" class="icon">
             <i class="fa fa-twitter fa-lg"></i-->
           </a>
-          <a href="https://github.com/flame02" class="icon">
+          <!--a href="https://github.com/flame02" class="icon">
             <i class="fa fa-github fa-lg"></i>
-          </a></h1>
+          </a--></h1>
           <p class="row">
             Hello, I just recently finished a Msc in Statistics at The University of Toronto,
             where I worked with
@@ -45,8 +45,8 @@
                   &nbsp; &#9679; bayesian optimization for the large scale exploration of chemical space </br>
                   &nbsp; &#9679; generative models of graphs for automatic chemical design  </br>
                   &nbsp; &#9679; Bayesian approaches to fair machine learning  </br>
-            If you're interested in any of these and want to collaborate send me an email at
-           danielfs@utstat.toronto.ca. You can also check out my <a href="cv.pdf">resume</a> if you want to. </br>
+            If you're interested in any of these and want to work together please send me an email at
+           danielfs@utstat.toronto.edu. You can also check out my <a href="resume.pdf">resume</a> if you want to. </br>
             <br>
 
           </p>
@@ -75,12 +75,40 @@
                 </div>
     <br>
 
+
+
+    <div class="row">
+        <div class="col-xs-2">
+            <img src="img/cwbnn.png" class="img-responsive"  alt="Surface plot depicting problem"/>
+        </div>
+        <div class="col-xs-8 text-left">
+            <strong><a href="158.pdf">Characterizing and warping the function space of Bayesian neural networks</a> </strong></br>
+            In this work we develop a simple method to construct priors for Bayesian neural networks
+            that incorporates meaningful prior information about functions. We fit neural nets to samples of functions
+            using a hypernetwork, in order to use the empirical moments of the learned weights for our prior parameters.
+            This method allows us to characterize the relationship between weight space and function space.
+            <br>
+            <a href="https://danielflamshep.github.io./">Daniel Flam-Shepherd</a>,
+            <a href="http://jamesr.info/">James Requeima</a>,
+            <a href="https://www.cs.toronto.edu/~duvenaud/">David Duvenaud</a>
+            <br>
+            <em>NIPS Workshop on Bayesian Deep Learning</em>, 2018 <br>
+            <!--div class="btn-group-xs">
+              <a href="2546Project.pdf"
+              class="btn btn-default">Paper</a>
+              <a href="https://github.com/flame02/csc2546project"
+              class="btn btn-default">Code</a>
+            </div-->
+            <br>
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-xs-2">
             <img src="img/sbnp.png" class="img-responsive"  alt="Surface plot depicting problem"/>
         </div>
         <div class="col-xs-8 text-left">
-            <strong> Stick breaking neural latent variable models </strong></br>
+            <strong><a href="49.pdf"> Stick breaking neural latent variable models </a></strong></br>
 
             Neural processes define a class of neural latent variable models.
             We extend this class to an infinite dimensional space by imposing a
@@ -89,33 +117,18 @@
             the stick-breaking process and develop the stick-breaking neural process (SB-NP).
             SB-NPs are able to learn the dimensionality of the latent space and
             have improved posterior uncertainty.
-            <br><br>
-            <div class="btn-group-xs">
-              <a href="2546Project.pdf"
-              class="btn btn-default">Paper</a>
-              <a href="https://github.com/flame02/csc2546project"
-              class="btn btn-default">Code</a>
-            </div>
             <br>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-2">
-            <img src="img/cwbnn.png" class="img-responsive"  alt="Surface plot depicting problem"/>
-        </div>
-        <div class="col-xs-8 text-left">
-            <strong> Characterizing and warping the function space of Bayesian neural networks </strong></br>
-            In this work we develop a simple method to construct priors for Bayesian neural networks
-            that incorporates meaningful prior information about functions.
-            This method allows us to characterize the relationship between weight space and function space.
-            <br><br>
-            <div class="btn-group-xs">
+            <a href="https://danielflamshep.github.io./">Daniel Flam-Shepherd</a>,
+            <a href="http://www.utstat.toronto.edu/~ygao/">Yuxiang Gao</a>,
+            <a href="https://www.linkedin.com/in/zhaoyu-guo-85866b72/">Zhaoyu Guo</a>
+            <br>
+            <em>NIPS Workshop on All of Bayesian Nonparametrics</em>, 2018 <br>
+            <!--div class="btn-group-xs">
               <a href="2546Project.pdf"
               class="btn btn-default">Paper</a>
               <a href="https://github.com/flame02/csc2546project"
               class="btn btn-default">Code</a>
-            </div>
+            </div-->
             <br>
         </div>
     </div>
@@ -125,27 +138,26 @@
             <img src="img/mgppbnn.png" class="img-responsive"  alt="Surface plot depicting problem"/>
         </div>
         <div class="col-xs-8 text-left">
-            <strong> Mapping Gaussian process priors to Bayesian Neural Networks </strong></br>
-            What defines a reasonable prior to use when forming and training Bayesian models?
-            It is difficult to incorporate meaningful prior information about functions to be
-            modeled by BNNs since priors are generally specified over the network parameters.
+            <strong><a href="65.pdf"> Mapping Gaussian process priors to Bayesian Neural Networks</a> </strong></br>
+            What defines a reasonable prior to use in Bayesian models?
             Often, normal distributions are placed over the weights for convenience and
             are interpreted as a bias toward less complex functions via smaller weights.
             Gaussian processes, on the other hand, have a elegant mechanism for incorporating
             prior beliefs about the underlying function - specifying the mean and covariance functions.
-            However, Gaussian Processes have scalability limitations making Bayesian neural networks
-            a more practical model in large data settings.
-            In our work, we present an approach to specify a more principled prior for
+            In this work, we present an approach to specify a more principled prior for
             Bayesian Neural Networks that can leverage the well studied kernel design techniques
-            from Gaussian process regression.
-
-            <br><br>
-            <div class="btn-group-xs">
+            from Gaussian process regression. <br>
+            <a href="https://danielflamshep.github.io./">Daniel Flam-Shepherd</a>,
+            <a href="http://jamesr.info/">James Requeima</a>,
+            <a href="https://www.cs.toronto.edu/~duvenaud/">David Duvenaud</a>
+            <br>
+            <em>NIPS Workshop on Bayesian Deep Learning</em>, 2017 <br>
+            <!--div class="btn-group-xs">
               <a href="2546Project.pdf"
               class="btn btn-default">Paper</a>
               <a href="https://github.com/flame02/csc2546project"
               class="btn btn-default">Code</a>
-            </div>
+            </div-->
             <br>
         </div>
     </div>
@@ -156,25 +168,24 @@
                         <img src="img/fba.png" class="img-responsive"  alt="Surface plot depicting problem"/>
                     </div>
                     <div class="col-xs-8 text-left">
-                        <strong> Generalized Feedback Alignment </strong></br>
+                        <strong><a href="2546Project.pdf"> Generalized Feedback Alignment</a> </strong></br>
                         The back-propagation algorithm is one of the main tools for credit assignment
                         in neural networks where the loss gradient is computed to back-propagate error
                         from the output layer to the hidden layers. A method called feedback alignment
                         performs almost as well and is more biologically plausible since it avoids using
                         the weights from the forward pass in the the backwards pass by replacing them
-                        with random feedback weights. This method can be made even more biologically
+                        with random feedback weights. <!--Direct feedback alignment is even more biologically
                         plausible by decoupling the error signal for each layer, such that the error is
                         not back-propagated through the layers but rather proceeds directly to each hidden
-                        layer. This is known as direct feedback alignment. In this work, a general
-                        feedback alignment strategy for training neural networks is proposed and experi-
-                        mented with in an supervised and unsupervised setting
-                        <br><br>
-                        <div class="btn-group-xs">
+                        layer.--> In this work, a general feedback alignment strategy for training
+                        neural networks is proposed and experimented with in an supervised and unsupervised setting
+                        <br>
+                        <!--div class="btn-group-xs">
                           <a href="2546Project.pdf"
                           class="btn btn-default">Paper</a>
                           <a href="https://github.com/flame02/csc2546project"
                           class="btn btn-default">Code</a>
-                        </div>
+                        </div-->
                         <br>
                     </div>
                 </div>
