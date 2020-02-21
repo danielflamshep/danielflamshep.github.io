@@ -16,26 +16,22 @@
 </head>
 <body>
   <div class="container">
-
-    <div class="row" style="padding:10px">
-
-      <div class="col-xs-12 col-sm-9 col-md-9">
-
-        <!--div class="row">
-          <img src="img/dan.png" class="pull-left" style="margin:20px
-          20px 20px 0; height:160px; width:125px"/-->
-          <h1>Daniel Flam-Shepherd
+      <div class="col-xs-20 col-sm-11 col-md-10">
+        <!--div class="row"-->
+          <img src="img/danjet.jpg" class="pull-right" style="margin:20px
+          20px 20px 20px; height:280px; width:500"/-->
+          <h1>Daniel Flam-Shepherd</h1>
           <!--a href="https://twitter.com/danielflamshepherd" class="icon">
             <i class="fa fa-twitter fa-lg"></i-->
-          </a>
+
           <!--a href="https://github.com/flame02" class="icon">
             <i class="fa fa-github fa-lg"></i>
-          </a--></h1>
+          </a-->
           <p class="row">
             I'm a machine learning Ph.D. student at the University of Toronto in the
             <a href="https://web.cs.toronto.edu/"> Department of Computer Science </a>
             and the <a href="https://vectorinstitute.ai/research/"> Vector Institute</a>.
-            My supervisor is <a href="https://matter.toronto.edu/"> Alan Aspuru-Guzik </a>.
+            My supervisor is <a href="https://matter.toronto.edu/"> Alan Aspuru-Guzik</a>.
             My research interests include:
             <br>  &nbsp; &#9679; graph neural networks and graph generative models </br>
                   &nbsp; &#9679; bayesian optimization and bayesian deep learning </br>
@@ -53,14 +49,88 @@
         <br>
 
         <!-- Projects Section -->
-      <section id="pubs" class="pubs-section">
+      <!--section id="pubs" class="pubs-section">
           <div class="container">
               <div class="row">
                   <h3> Preprints, Publications and Projects </h3>
-              </div>
+              </div-->
     <br>
 
+    <div class="row">
+        <div class="col-xs-8 text-left">
+            <strong>  <h2> Papers, preprints and projects </h2></strong></br>
 
+            <br>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-2">
+            <img src="img/gvae.png" class="img-responsive"  alt="Surface plot depicting problem"/>
+        </div>
+        <div class="col-xs-8 text-left">
+            <strong><a href="158.pdf"> Graph Deconvolutional Generation </a> </strong></br>
+            Graph generation is an extremely important task, as graphs are found throughout different areas of science and engineering.
+            In this work, we focus on the modern equivalent of the Erdos-Renyi random graph model: the graph variational autoencoder (GVAE).
+            This model assumes edges and nodes are independent in order to generate entire graphs at a time using a multi-layer perceptron decoder.
+            As a result of these assumptions, GVAE has difficulty matching the training distribution and relies on an expensive graph matching procedure.
+            We improve this class of models by building a message passing neural network into GVAE's encoder and decoder.
+            We demonstrate our model on the specific task of generating small organic molecules.
+            <br>
+            <a href="https://danielflamshep.github.io./">Daniel Flam-Shepherd</a>,
+            <a href="https://matter.toronto.edu/tony-wu/">Tony Wu</a>,
+            <a href="http://matter.toronto.edu/about-us/">Alan Aspuru-Guzik</a>
+            <br>
+            <em> preprint </em>, 2019 <br>
+            <br>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-2">
+            <img src="img/path.png" class="img-responsive"  alt="Surface plot depicting problem"/>
+        </div>
+        <div class="col-xs-8 text-left">
+            <strong><a href="158.pdf"> Neural Message Passing on Higher Order Paths </a> </strong></br>
+            Graph neural network (GNNs) have achieved impressive results in predicting molecular properties,
+            but do not directly account for local and hidden structures such as functional groups and molecular geometry.
+            At every layer, GNNs aggregate only over first order neighbours, ignoring important
+            information contained in subsequent neighbours as well as the relationships between those higher order connections.
+            In this work, we generalize graph neural nets to pass messages and aggregate across
+            higher order paths. This allows information to propagate over various levels and substructures of the graph.
+            We demonstrate our model on a few tasks in molecular property prediction.
+            <br>
+            <a href="https://danielflamshep.github.io./">Daniel Flam-Shepherd</a>,
+            <a href="https://matter.toronto.edu/tony-wu/">Tony Wu</a>
+            <a href="https://matter.toronto.edu/pascal-friederich/">Pascal Friederich</a>
+            <a href="http://matter.toronto.edu/about-us/">Alan Aspuru-Guzik</a>
+            <br>
+            <em> preprint </em>, 2019 <br>
+            <br>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-2">
+            <img src="img/bvae.png" class="img-responsive"  alt="Surface plot depicting problem"/>
+        </div>
+        <div class="col-xs-8 text-left">
+            <strong><a href="158.pdf"> Assessing learned representations in variational autoencoders using uncertainty </a> </strong></br>
+            We describe a useful application of uncertainty in the fully Bayesian variational autoencoder (BVAE),
+            that uses Bayesian neural networks (BNNs) in its encoder and decoder.
+            We describe how uncertainty can be used to assess the model's learned representation by interpreting
+            the approximate posterior and probabilistic decoder as predictive distributions.
+            We visualize these distributions on a dimensionality reduction task on the swiss roll dataset
+            and in generative modeling of the MNIST dataset.
+            <br>
+            <a href="https://danielflamshep.github.io./">Daniel Flam-Shepherd</a>,
+            <a href="https://matter.toronto.edu/tony-wu/">Tony Wu</a>
+            <br>
+            <em> preprint </em>, 2019 <br>
+            <br>
+        </div>
+    </div>
 
     <div class="row">
         <div class="col-xs-2">
